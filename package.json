@@ -1,0 +1,38 @@
+{
+  "name": "vite-plugin-md2components",
+  "keywords": [
+    "vite-plugin",
+    "vite-plugin-md2components",
+    "markdown",
+    "blog"
+  ],
+  "license": "MIT",
+  // "author": "angle",
+  // "repository": {
+  //   "type": "git",
+  //   "url": "https://github.com/XXXXXX"
+  // },
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rimraf dist && rollup -c"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.4",
+    "@types/markdown-it": "^12.2.3",
+    "@types/node": "^18.7.3",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.77.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.7"
+  },
+  "dependencies": {
+    "markdown-it": "^13.0.1"
+  }
+}
